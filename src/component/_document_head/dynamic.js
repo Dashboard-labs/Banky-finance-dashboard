@@ -10,12 +10,12 @@ const dynamicHeader = (props) => {
         <Helmet>
             <title>{capitalize(props.title)} | Choc UI</title>
 
-            <meta name="title" content={capitalize(props.title) || `Choc UI`} />
+            <meta name="title" content={capitalize(props.title) || `Banky Finance`} />
             <meta name="description" content={props.description || description} />
             <meta name="keywords" content={props.keywords || ''} />
 
-            <meta property="og:title" content={capitalize(props.title) || `Choc UI`} />
-            <meta property="twitter:title" content={capitalize(props.title) || `Choc UI`} />
+            <meta property="og:title" content={capitalize(props.title) || `Banky Finance`} />
+            <meta property="twitter:title" content={capitalize(props.title) || `Banky Finance`} />
             <meta
                 property="og:description"
                 content={props.description || description}
